@@ -6,7 +6,7 @@ import * as styles from "styles/components.css";
 
 export const App = () => {
   const lambdaPresignedUrl = 'https://rxb7prjm3hgiozbvv7xfxkvzfi0jvhrm.lambda-url.us-east-1.on.aws/';
-  const lambdaFaceSwapUrl = '***YOUR_LAMBDA_URL_FOR_FACE_SWAP_PROXY***';
+  const lambdaFaceSwapUrl = 'https://iv2dkofq7iqhdnkhejvwkizafq0eiejp.lambda-url.us-east-1.on.aws/';
   const allowedFileTypes = ['image/jpeg', 'image/jpg', 'image/png'];
   const [selectedFile1, setSelectedFile1] = useState(null);
   const [selectedFile2, setSelectedFile2] = useState(null);
